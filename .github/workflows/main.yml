@@ -20,5 +20,6 @@ jobs:
         with:
           node-version: 12
       - run: npm install yarn
+      - run: yarn install
       - run: yarn run build
       - run: rclone -v --exclude='.git**' --exclude='.idea**' sync dist/ oss:risinghf-wiki
