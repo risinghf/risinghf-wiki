@@ -1,6 +1,6 @@
 <template>
   <header class="navbar blur">
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
+    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" v-if="false"/>
 
     <router-link
       :to="$localePath"
