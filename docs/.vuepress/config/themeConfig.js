@@ -43,11 +43,6 @@ module.exports = {
   sidebar: 'structuring',
   // sidebar,
 
-  author: {
-    // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'RisingHF', // 必需
-    link: 'http://www.risinghf.com/', // 可选的
-  },
   social: {
     // 页脚栏社交图标
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
