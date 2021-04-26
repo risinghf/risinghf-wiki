@@ -22,4 +22,4 @@ jobs:
       - run: npm install yarn
       - run: yarn install
       - run: yarn run build
-      - run: rclone -v --exclude='.git**' --exclude='.idea**' sync docs/.vuepress/dist/ oss:risinghf-wiki
+      - run: rclone -v --exclude='.git**' --exclude='.idea**' copy docs/.vuepress/dist/ oss:risinghf-wiki
