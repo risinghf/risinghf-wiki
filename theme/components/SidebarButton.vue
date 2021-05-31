@@ -36,29 +36,29 @@
     display block
     width 1.25rem
     height 1.25rem
-@media (min-width ($MQMobile + 1px))
-  $mobileSidebarWidth = $sidebarWidth * 0.82
-  .sidebar-button
-    width 40px
-    height 40px
-    display inline-block
-    position fixed
-    left 0
-    top ($navbarHeight + 1rem)
-    text-align center
-    line-height 44px
-    margin 5px 8px
-    color #888
-    border-radius 50%
-    padding 0
-    // transition left 0.2s ease
-    transition all .2s
-    &:hover
-      background $accentColor
-      color #fff
-      box-shadow 0 0 6px $accentColor
-    .icon
-      display inline
-      width 1rem
-      height 1rem
+//@media (min-width ($MQMobile + 1px))
+//  $mobileSidebarWidth = $sidebarWidth * 0.82
+//  .sidebar-button
+//    width 40px
+//    height 40px
+//    display inline-block
+//    position fixed
+//    left 0
+//    top ($navbarHeight + 1rem)
+//    text-align center
+//    line-height 44px
+//    margin 5px 8px
+//    color #888
+//    border-radius 50%
+//    padding 0
+//    // transition left 0.2s ease
+//    transition all .2s
+//    &:hover
+//      background $accentColor
+//      color #fff
+//      box-shadow 0 0 6px $accentColor
+//    .icon
+//      display inline
+//      width 1rem
+//      height 1rem
 </style>
