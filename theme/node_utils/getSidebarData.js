@@ -131,6 +131,8 @@ function mapTocToSidebar (root, collapsable, prefix = '') {
       const contentStr = fs.readFileSync(file, 'utf8') // 读取md文件内容，返回字符串
       const { data } = matter(contentStr) // 解析出front matter数据
       const permalink = data.permalink || ''
+      // 为文件标记是否可下载
+      let download = data.download || false
 
       // 目录页对应的永久链接，用于给面包屑提供链接
       const { pageComponent } = data
@@ -141,7 +143,7 @@ function mapTocToSidebar (root, collapsable, prefix = '') {
       if (data.title) {
         title = data.title
       }
-      sidebar[order] = [prefix + filename, title, permalink];  // [<路径>, <标题>, <永久链接>]
+      sidebar[order] = [prefix + filename, title, permalink, download];  // [<路径>, <标题>, <永久链接>]
 
     }
   })
