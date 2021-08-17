@@ -1,1 +1,1 @@
-<redirect to="/zh/00/"/>
+<redirect to="/zh/00/" />
