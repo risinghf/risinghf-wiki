@@ -102,9 +102,9 @@ export default {
     // 小屏时选择主题模式后关闭选择框
     if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
       const modeBox = this.$refs.modeBox
-      modeBox.onclick = () => {
-        this.showModeBox = false
-      }
+      // modeBox.onclick = () => {
+      //   this.showModeBox = false
+      // }
       window.addEventListener('scroll', debounce(() => {
         if (this.showModeBox) {
           this.showModeBox = false
