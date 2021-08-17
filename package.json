@@ -11,6 +11,8 @@
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
+    "less": "3.0.4",
+    "less-loader": "5.0.0",
     "vuepress": "1.8.0",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-one-click-copy": "^1.0.2",
@@ -19,6 +21,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "ant-design-vue": "^1.7.5"
+    "vue-ellipsis-text": "^1.0.3",
+    "vuetify": "^2.5.8"
   }
 }

@@ -1,10 +1,16 @@
 // 解决代码选项卡无法加载的问题
 import Vue from 'vue'
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
 import CodeBlock from "@theme/global-components/CodeBlock.vue"
 import CodeGroup from "@theme/global-components/CodeGroup.vue"
 // Register the Vue global component
 Vue.component(CodeBlock)
 Vue.component(CodeGroup)
+import ellipsis from "@theme/assets/js/index.js";
+Vue.use(ellipsis);
+import "@theme/styles/common.less";
+import "@theme/styles/animate.css";
 
 //  注：此文件在浏览器端运行
 import postsMixin from '@theme/mixins/posts'
@@ -31,6 +37,7 @@ export default ({
 
   // 将对文章数据的处理结果混入Vue实例
   Vue.mixin(postsMixin)
+  Vue.use(Vuetify)
 }
 
 

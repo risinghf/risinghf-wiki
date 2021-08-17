@@ -23,7 +23,7 @@
 
           <Content class="theme-vdoing-content" />
         </div>
-  <slot name="bottom"  v-if="isShowSlotB" />
+        <slot name="bottom"  v-if="isShowSlotB" />
         <PageEdit />
 
 

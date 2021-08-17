@@ -3,7 +3,7 @@ module.exports = {
   zh: [
     {
       text: '首页',
-      link: '/zh/01.api/10.iotsquare/01.IoTSquareAPI/',
+      link: '/zh/00/',
       icon: 'configuration',
       // items: [
       //   { text: 'IoTSquare 平台使用手册', link: '/zh/02.manual/10.iotsquare/01.IoTSquare/'},
@@ -16,7 +16,7 @@ module.exports = {
   en: [
     {
       text: 'Home',
-      link: '/en/01.api/10.iotsquare/01.IoTSquareAPI/',
+      link: '/en/00/',
       icon: 'configuration',
     }
   ]

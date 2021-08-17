@@ -1,69 +1,61 @@
 <template>
-  <div
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
-
+  <ClientOnly>
     <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    ></div>
-
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-      v-show="showSidebar"
+        class="theme-container"
+        :class="pageClasses"
+        @touchstart="onTouchStart"
+        @touchend="onTouchEnd"
     >
-      <template
-        #top
-        v-if="sidebarSlotTop"
+      <Navbar
+          v-if="shouldShowNavbar"
+          @toggle-sidebar="toggleSidebar"
+      />
+
+      <div
+          class="sidebar-mask"
+          @click="toggleSidebar(false)"
+      ></div>
+
+      <Sidebar
+          :items="sidebarItems"
+          @toggle-sidebar="toggleSidebar"
+          v-show="showSidebar"
       >
-        <div class="sidebar-slot sidebar-slot-top" v-html="sidebarSlotTop"></div>
-      </template>
-      <template
-        #bottom
-        v-if="sidebarSlotBottom"
-      >
-        <div class="sidebar-slot sidebar-slot-bottom" v-html="sidebarSlotBottom"></div>
-      </template>
-    </Sidebar>
+        <template
+            #top
+            v-if="sidebarSlotTop"
+        >
+          <div class="sidebar-slot sidebar-slot-top" v-html="sidebarSlotTop"></div>
+        </template>
+        <template
+            #bottom
+            v-if="sidebarSlotBottom"
+        >
+          <div class="sidebar-slot sidebar-slot-bottom" v-html="sidebarSlotBottom"></div>
+        </template>
+      </Sidebar>
 
-    <!-- 首页 -->
-    <Home v-if="$page.frontmatter.home" />
+      <!-- 首页 -->
+      <Home v-if="$page.frontmatter.home" />
 
-    <!-- 文章页或其他页 -->
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <template
-        #top
-        v-if="pageSlotTop"
-      >
-        <div class="page-slot page-slot-top" v-html="pageSlotTop"></div>
-      </template>
-      <template
-        #bottom
-        v-if="pageSlotBottom"
-      >
-        <div class="page-slot page-slot-bottom" v-html="pageSlotBottom"></div>
-      </template>
-    </Page>
+      <!-- 文章页或其他页 -->
+      <div v-else>
+        <Page
+            :sidebar-items="sidebarItems"
+        >
 
-    <Footer />
+        </Page>
+      </div>
 
-    <Buttons
-      ref="buttons"
-      @toggle-theme-mode="toggleThemeMode"
-    />
+      <Footer />
 
-  </div>
+      <Buttons
+          ref="buttons"
+          @toggle-theme-mode="toggleThemeMode"
+      />
+
+    </div>
+  </ClientOnly>
 </template>
 
 <script>
@@ -87,8 +79,8 @@ export default {
     return {
       hideNavbar: false,
       isSidebarOpen: true,
-      showSidebar: false,
       themeMode: 'light',
+      showSidebar: true,
       showWindowLB: true,
       showWindowRB: true
     }
@@ -165,7 +157,7 @@ export default {
         // 'theme-mode-' + this.themeMode,
         userPageClass
       ]
-    }
+    },
   },
   created () {
     const sidebarOpen = this.$themeConfig.sidebarOpen
@@ -203,7 +195,7 @@ export default {
     }
 
     // 解决移动端初始化页面时侧边栏闪现的问题
-    this.showSidebar = true
+    // this.showSidebar = true
     this.$router.afterEach(() => {
       this.isSidebarOpenOfclientWidth()
     })
