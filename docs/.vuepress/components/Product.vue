@@ -39,7 +39,7 @@
             color="#FFCC00"
             outlined
             @click="e => { toPage(item.path); e.stopPropagation() }"
-        >查看详情</v-btn>
+        >{{ detailBtn }}</v-btn>
       </div>
     </div>
   </v-card>
@@ -66,8 +66,11 @@ export default {
     setProductH() {
       return "250px";
     },
-    lang() {
-      return ''
+    locale() {
+      return this.$lang
+    },
+    detailBtn() {
+      return this.locale === 'zh-CN' ? '查看详情' : 'Detail'
     }
   },
   methods: {
