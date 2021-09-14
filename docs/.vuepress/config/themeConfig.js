@@ -18,12 +18,14 @@ module.exports = {
       selectText: '选择语言',
       label: '简体中文',
       editLinkText: '在 Github 上编辑此页',
+      lastUpdated: '上次更新',
       nav: nav.zh
     },
     '/en/': {
       selectText: 'Languages',
       label: 'English',
       editLinkText: 'Edit this page on Github',
+      lastUpdated: 'Last Updated',
       nav: nav.en
     }
   },
@@ -46,7 +48,7 @@ module.exports = {
 
   social: {
     // 页脚栏社交图标
-    // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    iconfontCssFile: '//at.alicdn.com/t/font_1456654_x6v5pi0w56a.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: 'icon-youjian',

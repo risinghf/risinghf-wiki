@@ -7,10 +7,10 @@ import CodeGroup from "@theme/global-components/CodeGroup.vue"
 // Register the Vue global component
 Vue.component(CodeBlock)
 Vue.component(CodeGroup)
-import ellipsis from "@theme/assets/js/index.js";
-Vue.use(ellipsis);
-import "@theme/styles/common.less";
-import "@theme/styles/animate.css";
+import ellipsis from "@theme/assets/js/index.js"
+Vue.use(ellipsis)
+import "@theme/styles/common.less"
+import "@theme/styles/animate.css"
 
 //  注：此文件在浏览器端运行
 import postsMixin from '@theme/mixins/posts'

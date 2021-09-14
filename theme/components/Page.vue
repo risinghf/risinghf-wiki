@@ -3,7 +3,8 @@
     <main class="page">
 
       <div :class="`theme-vdoing-wrapper ${bgStyle}`">
-        <ArticleInfo v-if="isArticle()" />
+<!--        <ArticleInfo v-if="isArticle()" />-->
+        <PdfIcon v-if="isArticle()" />
         <component
           class="theme-vdoing-content"
           v-if="pageComponent"
@@ -45,6 +46,7 @@
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
 import ArticleInfo from './ArticleInfo.vue'
+import PdfIcon from './PdfIcon'
 import Catalogue from './Catalogue.vue'
 import UpdateArticle from './UpdateArticle.vue'
 import RightMenu from './RightMenu.vue'
@@ -59,7 +61,7 @@ export default {
     }
   },
   props: ['sidebarItems'],
-  components: { PageEdit, PageNav, ArticleInfo, Catalogue, UpdateArticle, RightMenu },
+  components: { PageEdit, PageNav, ArticleInfo, PdfIcon, Catalogue, UpdateArticle, RightMenu },
   created () {
     this.updateBarConfig = this.$themeConfig.updateBar
   },
@@ -106,8 +108,8 @@ export default {
       }
     },
     isArticle () {
-      // return this.$frontmatter.article !== false
-      return false
+      return this.$frontmatter.article !== false
+      // return false
     }
   }
 }

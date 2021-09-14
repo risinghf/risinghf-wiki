@@ -1,7 +1,7 @@
 <template>
   <v-card
-      class="product-list view view-third elevation-0"
-      @click="toPage(item.toPath)"
+      class="product-list view view-third"
+      @click="toPage(item.path)"
   >
     <v-img
         class="product-img"
@@ -10,14 +10,14 @@
         contain
         eager
     ></v-img>
-    <div class="text-center">
+    <div class="visibility text-center">
       <p
           class="titles text-cut-2 text-capitalize"
           v-html="addBrand(item.title)"
           v-ellipsis="{ 'line': 2, 'showTitle': true, 'rightBlank': 5 }"
       ></p>
     </div>
-    <div class="text-center">
+    <div class="visibility text-center">
       <p
           class="type text-cut-2 text-capitalize"
           v-html="addBrand(item.type)"
@@ -30,7 +30,7 @@
           <p class="type text-capitalize" v-html="addBrand(item.type)"></p>
           <p
               class="text text-cut-4 text-capitalize"
-              v-html="addBrand(item.text)"
+              v-html="addBrand(item.description)"
               v-ellipsis="{ 'line': 4, 'showTitle': true, 'rightBlank': 5 }"
           ></p>
         </div>
@@ -38,8 +38,8 @@
             class="pageBtn mt-3"
             color="#FFCC00"
             outlined
-            @click="toPage(item.toPath)"
-        >查看详情</v-btn>
+            @click="e => { toPage(item.path); e.stopPropagation() }"
+        >{{ detailBtn }}</v-btn>
       </div>
     </div>
   </v-card>
@@ -50,7 +50,7 @@ import { addBrand } from "../libs/tools";
 import EllipsisText from "vue-ellipsis-text";
 
 export default {
-  name: "producct-list",
+  name: "Product",
   props: {
     item: {
       type: Object,
@@ -66,19 +66,28 @@ export default {
     setProductH() {
       return "250px";
     },
-    lang() {
-      return ''
+    locale() {
+      return this.$lang
+    },
+    detailBtn() {
+      return this.locale === 'zh-CN' ? '查看详情' : 'Detail'
     }
   },
   methods: {
     addBrand(str) {
       return addBrand(str);
     },
-    toPage(toPath) {
-      this.$router.push({
-        path: toPath
-      });
-    },
+    toPage(path) {
+      this.$router.push(path[path.length - 1] === '/' ? path : `${path}/`)
+    }
+    // nav (path) {
+    //   if (!path) return
+    //   if (path.includes('://')) window.open(path, '_blank')
+    //   else this.$router.push(path[path.length - 1] === '/' ? path : `${path}/`)
+    // },
+    // customNav(path) {
+    //   this.nav(`${window.location.origin}${path}`)
+    // }
   }
 };
 </script>
