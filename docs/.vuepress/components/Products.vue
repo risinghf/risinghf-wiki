@@ -14,7 +14,7 @@ export default {
     tags: {
       type: Array,
       default: () => {
-        return ['module', 'node', 'gateway', 'cavityFilter']
+        return ['module', 'node', 'gateway', 'cavityFilter', 'relay', 'handheld', 'smartMeter']
       }
     }
   },
