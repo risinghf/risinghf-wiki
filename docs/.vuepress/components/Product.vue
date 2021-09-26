@@ -21,6 +21,7 @@
       <p
           class="type text-cut-2 text-capitalize"
           v-html="addBrand(item.type)"
+          v-ellipsis="{ 'line': 1, 'showTitle': true, 'rightBlank': 5 }"
       ></p>
     </div>
     <div class="mask">

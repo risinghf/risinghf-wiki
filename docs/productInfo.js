@@ -11,7 +11,7 @@ module.exports = {
   zh: [
     {
       id: 1,
-      title: '多功能超低功耗超小尺寸远距离通信模块',
+      title: '多功能超低功耗超小尺寸远距离通信模组',
       description: 'RHF0M0E5是瑞兴恒方网络(深圳)有限公司设计的低成本，超低功耗，超小尺寸的LoRaWAN模组',
       type: 'RHF0M0E5',
       src: 'https://risinghf-wiki.oss-cn-shenzhen.aliyuncs.com/upload/img/66524073101fd857c3e76de1cb7e2b89.png',
@@ -20,8 +20,8 @@ module.exports = {
     },
     {
       id: 2,
-      title: '低功耗超小尺寸远距离通信模块',
-      description: 'RHF0M062是瑞兴恒方网络(深圳)有限公司设计的低成本，超低功耗，超小尺寸的LoRaWAN模块',
+      title: '低功耗超小尺寸远距离通信模组',
+      description: 'RHF0M062是瑞兴恒方网络(深圳)有限公司设计的低成本，超低功耗，超小尺寸的LoRaWAN模组',
       type: 'RHF0M062',
       src: 'https://risinghf-wiki.oss-cn-shenzhen.aliyuncs.com/upload/img/n_t4cbukf6IVp488bqB5Yg==.png',
       path: '/zh/01/01/02/01/',
@@ -29,8 +29,8 @@ module.exports = {
     },
     {
       id: 3,
-      title: '8通道远距离通信网关模块',
-      description: 'RHF0M301 8通道LoRa网关模块是一款高性能小尺寸模块，内置Semtech的LoRa/LoRaWAN网关芯片SX1301',
+      title: '8通道远距离通信网关模组',
+      description: 'RHF0M301 8通道LoRa网关模组是一款高性能小尺寸模组，内置Semtech的LoRa/LoRaWAN网关芯片SX1301',
       type: 'RHF0M301',
       src: 'https://risinghf-wiki.oss-cn-shenzhen.aliyuncs.com/upload/img/4ba80e648f747d2106914b516fd6a754.png',
       path: '/zh/01/01/03/01/',
@@ -38,8 +38,8 @@ module.exports = {
     },
     {
       id: 4,
-      title: '极低功耗远距离无线节点模块',
-      description: 'RHF76-052x RHF78-052x 低功耗，低成本，小尺寸LoRaWAN节点模块射频采用Semtech LoRa芯片SX1276/78，主控采用ST超低功耗MCU STM32L051/052xx.',
+      title: '极低功耗远距离无线节点模组',
+      description: 'RHF76-052x RHF78-052x 低功耗，低成本，小尺寸LoRaWAN节点模组射频采用Semtech LoRa芯片SX1276/78，主控采用ST超低功耗MCU STM32L051/052xx.',
       type: 'RHF76-052x RHF78-052x',
       src: 'https://risinghf-wiki.oss-cn-shenzhen.aliyuncs.com/upload/img/cabda6c61119f98556703665b44b2b67.png',
       path: '/zh/01/01/04/01/',
@@ -56,8 +56,8 @@ module.exports = {
     },
     {
       id: 6,
-      title: '低功耗小尺寸无线模块',
-      description: 'RHF0M003模块是一款低成本、低功耗、超小尺寸的 LoRaWAN模块，内部由Semtech公司生产的LoRa芯片 SX127x以及ST的低功耗单片机STM32L07x组成。',
+      title: '低功耗小尺寸无线模组',
+      description: 'RHF0M003模组是一款低成本、低功耗、超小尺寸的 LoRaWAN模组，内部由Semtech公司生产的LoRa芯片 SX127x以及ST的低功耗单片机STM32L07x组成。',
       type: 'RHF0M003',
       src: 'https://risinghf-wiki.oss-cn-shenzhen.aliyuncs.com/upload/img/1.2.png',
       path: '/zh/01/01/06/01/',
