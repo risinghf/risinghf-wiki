@@ -41,7 +41,7 @@ module.exports = {
       title: '极低功耗远距离无线节点模组',
       description: 'RHF76-052x RHF78-052x 低功耗，低成本，小尺寸LoRaWAN节点模组射频采用Semtech LoRa芯片SX1276/78，主控采用ST超低功耗MCU STM32L051/052xx.',
       type: 'RHF76-052x RHF78-052x',
-      src: 'https://wiki.risinghf.com/upload/img/cabda6c61119f98556703665b44b2b67.png',
+      src: 'https://wiki.risinghf.com/upload/img/469fefb5d61c1ce6081f9cf62b6727f6.png',
       path: '/zh/01/01/04/01/',
       tag: 'module'
     },
@@ -59,7 +59,7 @@ module.exports = {
       title: '低功耗小尺寸无线模组',
       description: 'RHF0M003模组是一款低成本、低功耗、超小尺寸的 LoRaWAN模组，内部由Semtech公司生产的LoRa芯片 SX127x以及ST的低功耗单片机STM32L07x组成。',
       type: 'RHF0M003',
-      src: 'https://wiki.risinghf.com/upload/img/1.2.png',
+      src: 'https://wiki.risinghf.com/upload/img/61c7635cbe5c36cc9e71dab3dbbb5b5e.png',
       path: '/zh/01/01/06/01/',
       tag: 'module'
     },
@@ -151,7 +151,7 @@ module.exports = {
       title: 'Ultra Low Power Wireless Module For LoRa/LoRaWAN',
       description: 'RHF76-052 LoRaWAN Module is a low power,low cost and small size module embedded with LoRa chip SX1276 of Semtech, and ultra-low power MCU STM32L051/052xx of ST.',
       type: 'RHF76-052x RHF78-052x',
-      src: 'https://wiki.risinghf.com/upload/img/cabda6c61119f98556703665b44b2b67.png',
+      src: 'https://wiki.risinghf.com/upload/img/469fefb5d61c1ce6081f9cf62b6727f6.png',
       path: '/en/01/01/04/01/',
       tag: 'module'
     },
@@ -169,7 +169,7 @@ module.exports = {
       title: 'Ultra-Small Size Wireless Module',
       description: 'RHF0M003 LoRaWAN Module is a low cost, low power and ultra-small size module, embedded with Semtech’s LoRa propriety chip SX127x and ST’s ultra-low power MCU STM32L07x.',
       type: 'RHF0M003',
-      src: 'https://wiki.risinghf.com/upload/img/1.2.png',
+      src: 'https://wiki.risinghf.com/upload/img/61c7635cbe5c36cc9e71dab3dbbb5b5e.png',
       path: '/en/01/01/06/01/',
       tag: 'module'
     },
