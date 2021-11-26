@@ -122,7 +122,7 @@ module.exports = {
       title: '低功耗超小尺寸远距离通信模组',
       description: 'RHF0M063是瑞兴恒方网络(深圳)有限公司设计的低成本，超低功耗，超小尺寸的LoRaWAN®模组，模块采用ST的低功耗单片机STM32L07x以及SX126X组成。 该模块的目标应用是无线传感网络和其他物联网设备，尤其是有电池供电要求低功耗和远距离的场合。',
       type: 'RHF0M063',
-      src: 'https://wiki.risinghf.com/upload/img/ba60bf16c1b6570c1aba928a97171cc3.png',
+      src: 'https://wiki.risinghf.com/upload/img/5ccbc1ad0ddc590ba12aca9f818a60e0.png',
       path: '/zh/01/01/07/01/',
       tag: 'module'
     },
@@ -241,7 +241,7 @@ module.exports = {
       title: 'Ultra Low Power Module With FSK/LoRa Radio',
       description: 'RHF0M063 is a low cost, ultra-low power, ultra-small size LoRaWAN module designed by Rexing Hengfang Networks (Shenzhen) Co. The target applications of this module are wireless sensor networks and other IoT devices, especially where battery power is required for low power consumption and long distance.',
       type: 'RHF0M063',
-      src: 'https://wiki.risinghf.com/upload/img/ba60bf16c1b6570c1aba928a97171cc3.png',
+      src: 'https://wiki.risinghf.com/upload/img/5ccbc1ad0ddc590ba12aca9f818a60e0.png',
       path: '/en/01/01/07/01/',
       tag: 'module'
     },
