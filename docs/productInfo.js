@@ -126,6 +126,15 @@ module.exports = {
       path: '/zh/01/01/07/01/',
       tag: 'module'
     },
+    {
+      id: 14,
+      title: 'RHF2S027 gateway',
+      description: 'RHF2S027 gateway',
+      type: 'RHF2S027',
+      src: 'https://wiki.risinghf.com/upload/img/ee7aa69fd7fbe886fcf186c7a0341392.png',
+      path: '/zh/01/02/04/01/',
+      tag: 'gateway'
+    },
   ],
   en: [
     {
@@ -244,6 +253,15 @@ module.exports = {
       src: 'https://wiki.risinghf.com/upload/img/5ccbc1ad0ddc590ba12aca9f818a60e0.png',
       path: '/en/01/01/07/01/',
       tag: 'module'
+    },
+    {
+      id: 14,
+      title: 'RHF2S027 gateway',
+      description: 'RHF2S027 gateway',
+      type: 'RHF2S027',
+      src: 'https://wiki.risinghf.com/upload/img/ee7aa69fd7fbe886fcf186c7a0341392.png',
+      path: '/en/01/02/04/01/',
+      tag: 'gateway'
     },
   ]
 }
