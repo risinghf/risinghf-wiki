@@ -48,10 +48,15 @@ module.exports = {
 
   social: {
     // 页脚栏社交图标
-    iconfontCssFile: '//at.alicdn.com/t/font_1456654_x6v5pi0w56a.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    iconfontCssFile: '//at.alicdn.com/t/font_3311830_94xqebulae.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
-        iconClass: 'icon-youjian',
+        iconClass: 'icon-website',
+        title: 'RisingHF',
+        link: 'https://www.risinghf.com/'
+      },
+      {
+        iconClass: 'icon-email',
         title: 'Email',
         link: 'mailto:support@risinghf.com',
       },
