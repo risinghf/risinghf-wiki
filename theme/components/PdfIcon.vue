@@ -3,7 +3,7 @@
     <div class="pdfIcon">
       <button @click="download">
         <span
-            class="button iconfont iconpdf"
+            class="button iconfont icon-pdf"
             style="font-size: 24px"
             :title="pdfIconTitle"
         >

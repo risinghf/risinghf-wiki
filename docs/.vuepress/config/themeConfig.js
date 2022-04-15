@@ -48,7 +48,7 @@ module.exports = {
 
   social: {
     // 页脚栏社交图标
-    iconfontCssFile: '//at.alicdn.com/t/font_3311830_94xqebulae.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    iconfontCssFile: '//at.alicdn.com/t/font_3311830_ed2wu6nrzir.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: 'icon-website',
