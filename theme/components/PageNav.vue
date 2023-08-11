@@ -1,5 +1,5 @@
 <template>
-  <div class="page-nav-wapper">
+  <div class="page-nav-wrapper">
     <!-- 页面中间左右翻页 -->
     <div
       class="page-nav-centre-wrap"
