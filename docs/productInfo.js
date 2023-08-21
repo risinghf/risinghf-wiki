@@ -135,6 +135,15 @@ module.exports = {
       path: '/zh/01/02/04/01/',
       tag: 'gateway'
     },
+    {
+      id: 15,
+      title: '8通道LoRa网关模块',
+      description: 'RHF0M302B Mini-PCIE接口8通道LoRa®网关模组是一款高性能小尺寸模组，内置Semtech 的LoRaWAN®网关芯片SX1302，致力于无线传感、自动表计和其他IOT物联网的应用。',
+      type: 'RHF0M302B',
+      src: 'https://wiki.risinghf.com/upload/img/4d763bc6cf46ea8c3e89fc752ad4a91e.png',
+      path: '/zh/01/01/08/01/',
+      tag: 'module'
+    }
   ],
   en: [
     {
@@ -263,5 +272,14 @@ module.exports = {
       path: '/en/01/02/04/01/',
       tag: 'gateway'
     },
+    {
+      id: 15,
+      title: '8-Channel LoRa Gateway Module',
+      description: 'RHF0M302B Mini-PCIE interface 8-channel LoRa® gateway module is a high performance small scale module with built-in Semtech LoRaWAN® gateway chip SX1302, It is dedicated in wireless sensor, automatic meter and other IOT applications.',
+      type: 'RHF0M302B',
+      src: 'https://wiki.risinghf.com/upload/img/4d763bc6cf46ea8c3e89fc752ad4a91e.png',
+      path: '/en/01/01/08/01/',
+      tag: 'module'
+    }
   ]
 }
