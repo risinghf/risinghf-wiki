@@ -5,7 +5,7 @@
 * type: 产品的型号
 * src: 产品的图片链接
 * path: 产品简介的跳转链接
-* tag: 产品的标签，可选值有 'module', 'node', 'gateway', 'cavityFilter', 'relay', 'handheld', 'smartMeter'
+* tag: 产品的标签，可选值有 'module', 'node', 'gateway', 'cavityFilter', 'relay', 'handheld', 'tracker', 'smartMeter'
 * */
 module.exports = {
   zh: [
@@ -143,6 +143,15 @@ module.exports = {
       src: 'https://wiki.risinghf.com/upload/img/4d763bc6cf46ea8c3e89fc752ad4a91e.png',
       path: '/zh/01/01/08/01/',
       tag: 'module'
+    },
+    {
+      id: 16,
+      title: 'GN1S067牛羊定位器',
+      description: 'GN1S067 是为畜牧业设计的一款牛羊骆驼等牲畜定位器. 内置有蓝牙定位功能，GPS/北斗定位模块，温湿度传感器以及三轴加速度传感器。采用一节3.6v锂亚电池，典型使用寿命长达5年免更换。支持 LoRaWAN®、Cat-1 和 Cat-M，通过蓝牙进行数据通信和参数配置。',
+      type: 'GN1S067',
+      src: 'https://wiki.risinghf.com/upload/img/bf8c3c7acc9688234d51543a7b071e22.jpg',
+      path: '/zh/01/05/01/01/',
+      tag: 'tracker'
     }
   ],
   en: [
@@ -280,6 +289,15 @@ module.exports = {
       src: 'https://wiki.risinghf.com/upload/img/4d763bc6cf46ea8c3e89fc752ad4a91e.png',
       path: '/en/01/01/08/01/',
       tag: 'module'
+    },
+    {
+      id: 16,
+      title: 'Livestock Tracker GN1S067',
+      description: 'GN1S067 is designed for Livestock Tracking such as cattle, sheep and camel. The tracker integrates Bluetooth indoor positioning and GPS for outdoor geolocation with T&H sensor for ambient environment monitoring and acceleration sensor for step counting. It is powered by a 3.6V Lithium battery with typical 5 years battery life. It supports LoRaWAN®, Cat-1 and Cat-M for data communication with parameter configuartion via Bluetooth.',
+      type: 'GN1S067',
+      src: 'https://wiki.risinghf.com/upload/img/bf8c3c7acc9688234d51543a7b071e22.jpg',
+      path: '/en/01/05/01/01/',
+      tag: 'tracker'
     }
   ]
 }
