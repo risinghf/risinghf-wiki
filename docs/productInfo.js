@@ -152,6 +152,15 @@ module.exports = {
       src: 'https://wiki.risinghf.com/upload/img/bf8c3c7acc9688234d51543a7b071e22.jpg',
       path: '/zh/01/05/01/01/',
       tag: 'tracker'
+    },
+    {
+      id: 17,
+      title: 'RHF2S209 LoRaWAN 8通道室外网关',
+      description: 'RHF2S209是瑞兴恒方精心打造的具备支持半双工模式的工业级的LoRaWAN网 关。内嵌Linux操作系统，主控芯片为性能强大的32-bit Arm® Cortex® -A7平台，主频最高可达到650MHz。内部搭载Semtech高性能多通道LoRa收发器SX1302，极大的降低了工作功耗同时支持更大的网络容量。',
+      type: 'RHF2S209',
+      src: 'https://wiki.risinghf.com/upload/img/1857e290e264a7504e6156280c135f80.png',
+      path: '/zh/01/02/05/01/',
+      tag: 'gateway'
     }
   ],
   en: [
@@ -298,6 +307,15 @@ module.exports = {
       src: 'https://wiki.risinghf.com/upload/img/bf8c3c7acc9688234d51543a7b071e22.jpg',
       path: '/en/01/05/01/01/',
       tag: 'tracker'
+    },
+    {
+      id: 17,
+      title: 'RHF2S209 LoRaWAN 8channel Outdoor Gateway',
+      description: 'RHF2S209 is a new generation LoRaWAN gateway developed by RisingHF. The GW integrates 650MHz ARM Cortex-A53 CPU which run Linux OS. Semtech LoRaWAN gateway chip SX1302 is imported into the gateway. SX1302 is a new generation chip with high performance excels in reducing current consumption and handling a higher amount of LoRa traffic.',
+      type: 'RHF2S209',
+      src: 'https://wiki.risinghf.com/upload/img/1857e290e264a7504e6156280c135f80.png',
+      path: '/en/01/02/05/01/',
+      tag: 'gateway'
     }
   ]
 }
