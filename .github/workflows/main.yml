@@ -20,9 +20,9 @@ jobs:
         with:
           node-version: 12
       - run: npm install yarn
-      - run: yarn config get registry
       - run: yarn config set registry https://registry.yarnpkg.com
       - run: yarn config get registry
+      - run: yarn config set strict-ssl false
       - run: yarn install
       - run: yarn run build
       - run: rclone -v --exclude='.git**' --exclude='.idea**' copy docs/.vuepress/dist/ oss:risinghf-wiki
