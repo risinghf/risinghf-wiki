@@ -2313,7 +2313,7 @@ clone-response@^1.0.2:
 
 clone@^2.1.1:
   version "2.1.2"
-  resolved "https://registry.nlark.com/clone/download/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  resolved "https://registry.npmmirror.com/clone/download/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
 
 coa@^2.0.2:
@@ -4814,7 +4814,7 @@ latest-version@^5.0.0:
 
 less-loader@5.0.0:
   version "5.0.0"
-  resolved "https://registry.nlark.com/less-loader/download/less-loader-5.0.0.tgz?cache=0&sync_timestamp=1625230455763&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fless-loader%2Fdownload%2Fless-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
+  resolved "https://registry.npmmirror.com/less-loader/download/less-loader-5.0.0.tgz?cache=0&sync_timestamp=1625230455763&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fless-loader%2Fdownload%2Fless-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
   integrity sha1-SY3eOmxsT4h0WO6e0/CGoSrRtGY=
   dependencies:
     clone "^2.1.1"
@@ -6214,7 +6214,7 @@ promise-inflight@^1.0.1:
 
 promise@^7.1.1:
   version "7.3.1"
-  resolved "https://registry.nlark.com/promise/download/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
+  resolved "https://registry.npmmirror.com/promise/download/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
   integrity sha1-BktyYCsY+Q8pGSuLG8QY/9Hr078=
   dependencies:
     asap "~2.0.3"
@@ -7772,7 +7772,7 @@ vm-browserify@^1.0.1:
 
 vue-ellipsis-text@^1.0.3:
   version "1.0.3"
-  resolved "https://registry.nlark.com/vue-ellipsis-text/download/vue-ellipsis-text-1.0.3.tgz#97bc38bc9ed8642ec6f2d79e023a5c3d96a3cc07"
+  resolved "https://registry.npmmirror.com/vue-ellipsis-text/download/vue-ellipsis-text-1.0.3.tgz#97bc38bc9ed8642ec6f2d79e023a5c3d96a3cc07"
   integrity sha1-l7w4vJ7YZC7G8teeAjpcPZajzAc=
   dependencies:
     vue "^2.5.11"
@@ -7835,7 +7835,7 @@ vue-template-es2015-compiler@^1.9.0:
 
 vue@^2.5.11:
   version "2.6.14"
-  resolved "https://registry.nlark.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
+  resolved "https://registry.npmmirror.com/vue/download/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha1-5RqlJQJQ1Wmj+606ilpofWA24jU=
 
 vue@^2.6.10:
@@ -7923,7 +7923,7 @@ vuepress@1.8.0:
 
 vuetify@^2.5.8:
   version "2.5.8"
-  resolved "https://registry.nlark.com/vuetify/download/vuetify-2.5.8.tgz#a23e6a7e77b77de0744b53cf1e7c9d40efac0635"
+  resolved "https://registry.npmmirror.com/vuetify/download/vuetify-2.5.8.tgz#a23e6a7e77b77de0744b53cf1e7c9d40efac0635"
   integrity sha1-oj5qfne3feB0S1PPHnydQO+sBjU=
 
 watchpack-chokidar2@^2.0.1:
