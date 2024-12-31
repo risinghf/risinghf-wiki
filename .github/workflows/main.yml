@@ -26,8 +26,3 @@ jobs:
       - run: yarn install
       - run: yarn run build
       - run: rclone -v --exclude='.git**' --exclude='.idea**' copy docs/.vuepress/dist/ oss:risinghf-wiki
-      - run: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && unzip awscliv2.zip && sudo ./aws/install --update
-      - env:
-          ALICLOUD_ACCESS_KEY: ${{ secrets.ALICLOUD_ACCESS_KEY }}
-          ALICLOUD_SECRET_KEY: ${{ secrets.ALICLOUD_SECRET_KEY }}
-          ALICLOUD_REGION: ${{ secrets.ALICLOUD_REGION }}
