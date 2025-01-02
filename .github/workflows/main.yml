@@ -28,5 +28,5 @@ jobs:
       - run: yarn install
       - run: yarn run build
       - run: rclone -v --exclude='.git**' --exclude='.idea**' copy docs/.vuepress/dist/ oss:risinghf-wiki
-      - run: aliyun configure set --access-key-id ${{ secrets.ALICLOUD_ACCESS_KEY }}  --access-key-secret ${{ secrets.ALICLOUD_SECRET_KEY }} --profile default --mode AK --region shenzhen
+      - run: aliyun configure set --access-key-id ${{ secrets.OSS_KEY }}  --access-key-secret ${{ secrets.OSS_SECRET }} --profile default --mode AK --region shenzhen
       - run: aliyun cdn RefreshObjectCaches --ObjectType Directory --ObjectPath https://wiki.risinghf.com/
