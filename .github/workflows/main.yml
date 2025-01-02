@@ -14,6 +14,8 @@ jobs:
           OSS_SECRET: ${{ secrets.OSS_SECRET }}
         run: |
           rclone config create oss s3 provider Alibaba access_key_id $OSS_KEY secret_access_key $OSS_SECRET endpoint oss-cn-shenzhen.aliyuncs.com acl public-read
+      - run: curl -OL https://github.com/aliyun/aliyun-cli/releases/download/v3.0.243/aliyun-cli-linux-3.0.243-amd64.tgz
+      - run: tar xzvf aliyun-cli-linux-latest-amd64.tgz && chmod u+x ./aliyun && mv ./aliyun /usr/local/bin/aliyun
       - name: Checkout code
         uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -26,3 +28,5 @@ jobs:
       - run: yarn install
       - run: yarn run build
       - run: rclone -v --exclude='.git**' --exclude='.idea**' copy docs/.vuepress/dist/ oss:risinghf-wiki
+      - run: aliyun configure set --access-key-id ${{ secrets.ALICLOUD_ACCESS_KEY }}  --access-key-secret ${{ secrets.ALICLOUD_SECRET_KEY }} --profile default --mode AK --region shenzhen
+      - run: aliyun cdn RefreshObjectCaches --ObjectType Directory --ObjectPath https://wiki.risinghf.com/
