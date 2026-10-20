@@ -11,6 +11,10 @@ yarn-error.log*
 .vscode
 .idea
 
+# 本地工具产物
+.arts
+.codeartsdoer
+
 # vuepress
 docs/.vuepress/dist
 
